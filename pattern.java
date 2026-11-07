@@ -8,7 +8,7 @@ public class pattern {
  // Here are the 5 methods that will be declared and initialized
 
 //precondition: rows must be an integer and is non zero
-//poscondition: returns a pattern depicting a staircase of stars with the top row printing 1 star,
+//poscondition: shows a pattern depicting a staircase of stars with the top row printing 1 star,
 //the following rows printing 2 more stars than the row above it 
 public static void stars(int rows) {
  int currentRow = 1;
@@ -30,7 +30,7 @@ public static void stars(int rows) {
 }
 
 //precondition: rows must be an integer and is non zero
-//poscondition: returns a pattern depicting a staircase of numbers with the top row printing 1, 
+//poscondition: shows a pattern depicting a staircase of numbers with the top row printing 1, 
 //the following rows printing 1 more than the previous row above it 
 public static void triangle(int rows) {
  int currentRow = 1;
@@ -50,7 +50,7 @@ public static void triangle(int rows) {
 }
 
 //precondition: start must be an integer, is non zero, and odd
-//poscondition: returns a pattern depicting a reverse staircase of numbers with the top row being 
+//poscondition: shows a pattern depicting a reverse staircase of numbers with the top row being 
 //the argument the user inputted, the following rows being printing a number 2 less than the previous row above it 
 public static void odds (int start) {
 
@@ -76,7 +76,7 @@ public static void odds (int start) {
 }
     
 //precondition: maxE must be an integer 
-//poscondition: returns a pattern depicting a wave like pattern alternating between letters E and O, 
+//poscondition: shows a pattern depicting a wave like pattern alternating between letters E and O, 
 //E will be at the middle of the pattern and will be the longest
 public static void eo(int maxE) {
 String currentLetter = "E";
@@ -130,7 +130,7 @@ String currentLetter = "E";
 }
 
 //precondition: rows must be an integer 
-//poscondition: returns a pattern depicting a upside down pyramid with the top row printing 1,
+//poscondition: shows a pattern depicting a upside down pyramid with the top row printing 1,
 //the following rows printing a number that is one more than the number in the row above it and
 //prints the number 2 more times than the amount of times the number was printed in the row above it
  public static void pyramid(int rows) {
@@ -165,6 +165,8 @@ String currentLetter = "E";
  }
 
  // Main method
+ //precondition: methods are called with appropriate arguments 
+ //poscondition: displays the following functions
  public static void main(String[] args) {
     
      stars(7);
