@@ -172,7 +172,7 @@ String currentLetter = "E";
      stars(7);
      triangle(9);
      odds(9);
-     eo(4);
+     eo(5);
 	 pyramid(5);
  }
 }
