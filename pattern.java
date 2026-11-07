@@ -136,24 +136,29 @@ String currentLetter = "E";
  public static void pyramid(int rows) {
     int currentRow = 1;
 	int amountOnAboveRow = 0;
+	int m = 1;
 
-	for (int k = 1; k <= rows; k++) {
+	for (int i = 1; i <= rows; i++) {
 
 		amountOnAboveRow += 2;
 	}
 	amountOnAboveRow -= 1;
 
-	for (int i = 1; i <= rows; i++) {
+	for (int j = 1; j <= rows; j++) {
 
-    for (int j = 1; j <= amountOnAboveRow; j++) {
+    for (int k = 1; k <= amountOnAboveRow; k++) {
 		System.out.print(currentRow);
 		
 	}
 		System.out.println("");
-		System.out.print(" ");
 		currentRow++;
 		amountOnAboveRow -= 2;
 
+		for (int l = 1; l <= m; l++) {
+
+			System.out.print(" ");
+		}
+		m++;
 	}
 
    
